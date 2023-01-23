@@ -1,11 +1,11 @@
 # Case Study: NLP with spaCy and Prodigy
 
 ## Introduction
-In the previous lesson, we discussed the origin of labeled data for natural language processing models and the potential ethical implications that can arise when humans are applying labels to data. It is important to question the methodology applied to derive the labels when using data for observational studies. When creating your own labels, it is important to have a deep understanding of the field of study in order to apply labels with the most accuracy.
+Labeled data for natural language processing models often has ethical implications when humans apply labels to the data. It is important to question the methodology applied to derive the labels when using data for observational studies. When creating your own labels, it is important to have a deep understanding of the field of study in order to apply labels with the most accuracy.
 
-However, as data sets get exponentially larger (especially when it comes to language data) we can use statistical techniques and create a semi-supervised "__human-in-the-loop__" processes to apply our labels. This saves time and resources, allowing researchers that are experts in their subject area to apply labels efficiently, instead of spending countless hours manually applying and reviewing labels.
+However, as data sets get exponentially larger (especially when it comes to language data) you can use statistical techniques and create a semi-supervised "__human-in-the-loop__" processes to apply your labels. This saves time and resources, allowing researchers that are experts in their subject area to apply labels efficiently, instead of spending countless hours manually applying and reviewing labels.
 
-In this case study, we will discuss how spaCy and Prodigy offer researchers and developers the tools to use powerful language models that are customized for their use case and/or create their own custom models from scratch. This can help avoid some of the security issues, reliability issues, and ethical pitfalls of employing third-parties like MTurk for labeling tasks. 
+In this case study, you will learn how spaCy and Prodigy offer researchers and developers the tools to use powerful language models that are customized for their use case and/or create their own custom models from scratch. This can help avoid some of the security issues, reliability issues, and ethical pitfalls of employing third-parties like MTurk for labeling tasks. 
 
 ## Learning Objectives
 You will be able to...
@@ -26,7 +26,7 @@ spaCy is powered by ongoing research by experts in computational linguistics. Th
 
 
 ### Prodigy
-Prodigy is a proprietary software (__not__ free or open-source) offered by the creators of spaCy. It is geared towards researchers that want to save time on quantitative coding in order to label large datasets. Prodigy provides a modern annotation tool for creating training and evaluation data for machine learning models with a user friendly interface. This beneficial for human-in-the-loop approach in NLP workflows.
+Prodigy is proprietary software (__not__ free or open-source) offered by the creators of spaCy. It is geared towards researchers that want to save time on quantitative coding in order to label large datasets. Prodigy provides a modern annotation tool for creating training and evaluation data for machine learning models with a user friendly interface. This beneficial for human-in-the-loop approach in NLP workflows.
 
 #### What is a Human-in-the-Loop approach?
 The human-in-the-loop approach is a semi-supervised technique that uses statistical methods to label a large dataset, based on a small amount of labeled training data. Researchers run the model and analyze the results of the machine generated labels for accuracy. Then, the model adjusted based on their findings. The model is run again with the updated parameters, and the results are audited once again. This process continues until the model has reached a satisfactory level of accuracy. 
