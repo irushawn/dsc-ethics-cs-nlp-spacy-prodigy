@@ -10,7 +10,7 @@ In this case study, you will learn how spaCy and Prodigy offer researchers and d
 ## Learning Objectives
 You will be able to...
 * Discuss uses for spaCy and Prodigy and how they improve the reliability of language models
-* Locate spaCy and Prodigy resources
+* Locate spaCy and Prodigy resources.
 
 ## What are spaCy and Prodigy?
 
